@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.app-wrapper {
+  background-color: #1a1a1a;
+  height: 100vh;
+}
+
+/* Navbar */
+
+.nav-wrapper {
+  background-color: rgb(94, 90, 90);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 30%;
+  padding: 15px;
+  color: white;
+  gap: 30px;
+}
+
+.nav-elements {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+/* Signup and Login */
+
+.signup-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15vh;
+}
+
+.signup-wrapper h1 {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(77, 81, 84);
+}
+
+.signup {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup input {
+  margin-block: 10px;
+  line-height: 2.5rem;
+  padding-left: 10px;
+  min-width: 350px;
+  border: 1px solid rgba(128, 128, 128, 0.504);
+}
+
+.signup input:focus {
+  outline: none;
+  border: 1px solid rgb(111, 107, 107);
+}
+
+.signup button {
+  padding-block: 13px;
+  margin-top: 10px;
+  color: white;
+  background-color: rgb(94, 90, 90);
+  border-radius: 3px;
+}
+
+/* ProblemSet */
+
+.table-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vh;
+  margin-inline: 5vw;
+}
+
+.table-wrapper table {
+  border-collapse: collapse;
+}
+
+th{
+  padding: 10px;
+  border-bottom: 1px solid gray;
+  background-color: #1a1a1a;
+  color: gray;
+  font-weight: 500;
+  text-align: left;
+}
+
+td{
+  padding: 10px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+tr:nth-child(even) {
+  background-color: #5b5353;
+}
+
+tr:nth-child(odd) {
+  background-color: #1a1a1a;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #0a84ff;
+}
+
+.button-wrapper {
+  display: flex;
+  margin: 20px;
+  gap: 10px;
+}
+
+.button-wrapper button {
+  background-color: rgb(94, 90, 90);
+  padding: 10px;
+  color: white;
+}
+
+button:hover {
+  background-color: #2f2a2a;
+  padding: 11px;
+}
+
+/* Create Problem */
+
+.create-problem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15vh;
+}
+
+.create-problem h1 {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(77, 81, 84);
+}
+
+.problem-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.problem-form input {
+  margin-block: 10px;
+  line-height: 2.5rem;
+  padding-left: 10px;
+  min-width: 350px;
+  border: 1px solid rgba(128, 128, 128, 0.504);
+}
+
+.problem-form input:focus {
+  outline: none;
+  border: 1px solid rgb(111, 107, 107);
+}
+
+.problem-form button {
+  padding-block: 13px;
+  margin-top: 10px;
+  color: white;
+  background-color: rgb(94, 90, 90);
+  border-radius: 3px;
+}
+
+.problem-form button:hover {
+  background-color: #2f2a2a;
+  padding: 11px;
+}
